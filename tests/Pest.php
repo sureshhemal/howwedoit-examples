@@ -12,8 +12,12 @@
 */
 
 pest()->extend(Tests\TestCase::class)
- // ->use(Illuminate\Foundation\Testing\RefreshDatabase::class)
-    ->in('Feature', 'Unit');
+    ->use(Illuminate\Foundation\Testing\RefreshDatabase::class)
+    ->in(
+        'Feature',
+        'Unit',
+        'app/Post_01_Dependency_Injection/Tests',
+    );
 
 /*
 |--------------------------------------------------------------------------

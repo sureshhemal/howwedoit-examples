@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Sms\Entities;
+namespace App\Post_01_Dependency_Injection\Entities;
 
 /**
  * SMS Message entity.
@@ -8,19 +8,16 @@ namespace App\Sms\Entities;
 class Message
 {
     /**
-     * @param string $phone The recipient's phone number
-     * @param string $content The message content
+     * @param  string  $phone  The recipient's phone number
+     * @param  string  $content  The message content
      */
     public function __construct(
         private readonly string $phone,
         private readonly string $content
-    ) {
-    }
+    ) {}
 
     /**
      * Get the recipient's phone number.
-     *
-     * @return string
      */
     public function getPhone(): string
     {
@@ -29,8 +26,6 @@ class Message
 
     /**
      * Get the message content.
-     *
-     * @return string
      */
     public function getContent(): string
     {
