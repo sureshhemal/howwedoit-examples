@@ -17,6 +17,7 @@ pest()->extend(Tests\TestCase::class)
         'Feature',
         'Unit',
         'app/Post_01_Dependency_Injection/Tests',
+        'app/Post_02_Macros/Tests'
     );
 
 /*
