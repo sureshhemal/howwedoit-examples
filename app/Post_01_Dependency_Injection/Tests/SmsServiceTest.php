@@ -1,7 +1,10 @@
 <?php
 
-use App\Sms\UseCases\Services\SmsService;
-use App\Sms\UseCases\Services\SmsServiceInterface;
+use App\Post_01_Dependency_Injection\UseCases\Services\SmsService;
+use App\Post_01_Dependency_Injection\UseCases\Services\SmsServiceInterface;
+use Tests\TestCase;
+
+uses(TestCase::class);
 
 test('sms service interface is bound to container', function () {
     $smsService = app(SmsServiceInterface::class);

@@ -1,17 +1,15 @@
 <?php
 
-namespace App\Sms\IO;
+namespace App\Post_01_Dependency_Injection\IO;
 
-use App\Sms\UseCases\Services\SmsService;
-use App\Sms\UseCases\Services\SmsServiceInterface;
+use App\Post_01_Dependency_Injection\UseCases\Services\SmsService;
+use App\Post_01_Dependency_Injection\UseCases\Services\SmsServiceInterface;
 use Illuminate\Support\ServiceProvider;
 
 class SmsServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
-     *
-     * @return void
      */
     public function register(): void
     {
