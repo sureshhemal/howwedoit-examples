@@ -1,6 +1,6 @@
 <?php
 
-use App\Post_03_Setup_Laravel_Api\IO\Http\Controllers\UsersController;
+use App\Post_04_Vue_Api_Comparision\IO\Http\Controllers\UsersController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 

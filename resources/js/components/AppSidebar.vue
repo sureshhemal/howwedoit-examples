@@ -14,6 +14,11 @@ const mainNavItems: NavItem[] = [
         href: '/dashboard',
         icon: LayoutGrid,
     },
+    {
+        title: 'Composable',
+        href: '/composable',
+        icon: LayoutGrid,
+    },
 ];
 
 const footerNavItems: NavItem[] = [
